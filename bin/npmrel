@@ -2,7 +2,6 @@
 
 var program = require('commander');
 var packageJSON = require('../package');
-var util = require('../lib/util');
 
 program
   .version(packageJSON.version)
