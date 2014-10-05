@@ -1,0 +1,30 @@
+{
+  "name": "npmrel",
+  "version": "1.0.0",
+  "description": "Release NPM modules from the command-line.",
+  "main": "index.js",
+  "bin": {
+    "npmrel": "./bin/npmrel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tanem/npmrel.git"
+  },
+  "homepage": "https://github.com/tanem/npmrel",
+  "keywords": [
+    "release",
+    "command",
+    "line"
+  ],
+  "author": {
+    "name": "Tane Morgan",
+    "url": "http://github.com/tanem"
+  },
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "commander": "^2.3.0",
+    "execSync": "^1.0.2",
+    "semver": "^4.0.0"
+  }
+}

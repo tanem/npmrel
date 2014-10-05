@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var packageJSON = require('../package');
+var util = require('../lib/util');
+
+program
+  .version(packageJSON.version)
+  .usage('[<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease] [options]')
+  .option('-m, --message [msg]', 'The commit message to use.\n' +
+            '                     If unspecified, will default to "Release vx.x.x".')
+  .parse(process.argv);
+
+program.newVersion = process.argv[2];
+
+var npmrel = require('..');
+npmrel(program.newVersion, program.message);
