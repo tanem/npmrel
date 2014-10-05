@@ -36,20 +36,26 @@ I usually like to add/update a changelog with my release commits using [mkclog](
 
 ## Examples
 
-From within a Git repo at version `1.0.0`, we can release a major version bump as follows. The commit message in this case will be `This is release v2.0.0`:
+From within a Git repo at version `1.0.0`, we can release a major version bump as follows:
 
 ```
 $ npmrel major -m "This is release v%s"
+$ git log -1 --format="%s"
+This is release v2.0.0
 ```
 
-Now let's say we'd like to bump the patch version using the default commit message. The commit message in this case will be `Release v2.0.1`:
+Now let's say we'd like to bump the patch version using the default commit message:
 
 ```
 $ npmrel patch
+$ git log -1 --format="%s"
+Release v2.0.1
 ```
 
-We can also specify the version directly. The commit message in this case will be `Releasing version 2.1.0`:
+We can also specify the version directly:
 
 ```
 $ npmrel v2.1.0 -m "Releasing version %s"
+$ git log -1 --format="%s"
+Releasing version 2.1.0
 ```
