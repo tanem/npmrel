@@ -1,3 +1,7 @@
+## v1.0.2 / 2014-10-05
+
+ * ([9c15cc5](https://github.com/tanem/npmrel/commit/9c15cc51290bc77b578ae0bc3a16610092ac1fa5)) Generate CHANGELOG with mkclog
+
 ## v1.0.1 / 2014-10-05
 
  * ([ae1be95](https://github.com/tanem/npmrel/commit/ae1be9535929473c219b16e7710d6b2fb969859d)) Throw errors on non-zero cmd exit codes
