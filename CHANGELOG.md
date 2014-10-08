@@ -1,3 +1,8 @@
+## v1.0.3 / 2014-10-08
+
+ * ([134aff9](https://github.com/tanem/npmrel/commit/134aff9b4551cace41940b8fc2003778d2553236)) Fix syntax error (fixes [#1](https://github.com/tanem/npmrel/issues/1))
+ * ([e673eac](https://github.com/tanem/npmrel/commit/e673eacfb27f9241e66234170a21c428221deda8)) Remove getCommitMessage (fixes [#2](https://github.com/tanem/npmrel/issues/2))
+
 ## v1.0.2 / 2014-10-05
 
  * ([9c15cc5](https://github.com/tanem/npmrel/commit/9c15cc51290bc77b578ae0bc3a16610092ac1fa5)) Generate CHANGELOG with mkclog
