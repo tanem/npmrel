@@ -1,3 +1,7 @@
+## v1.0.4 / 2015-03-04
+
+ * ([47bbbc9](https://github.com/tanem/npmrel/commit/47bbbc9259d08810b6f741e8336dee5cdf9cfddb)) Use Node 0.12 execSync
+
 ## v1.0.3 / 2014-10-08
 
  * ([134aff9](https://github.com/tanem/npmrel/commit/134aff9b4551cace41940b8fc2003778d2553236)) Fix syntax error (fixes [#1](https://github.com/tanem/npmrel/issues/1))
@@ -16,3 +20,4 @@
 ## v1.0.0 / 2014-10-05
 
  * ([c727b7f](https://github.com/tanem/npmrel/commit/c727b7fca6efe048356b277e6c8b1f88b682c131)) Initialised
+ 
