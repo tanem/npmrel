@@ -1,6 +1,6 @@
 {
   "name": "npmrel",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Release NPM modules from the command-line.",
   "main": "index.js",
   "bin": {

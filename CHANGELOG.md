@@ -1,3 +1,7 @@
+## v1.0.6 / 2015-03-06
+
+ * ([fc9d8ae](https://github.com/tanem/npmrel/commit/fc9d8ae4e635715c43d39a9e8df83a66480fde16)) Clean up the command output
+
 ## v1.0.5 / 2015-03-06
 
  * ([054e6ee](https://github.com/tanem/npmrel/commit/054e6eed450904d76dd17c99e5f04a10927de0ad)) Log command output
