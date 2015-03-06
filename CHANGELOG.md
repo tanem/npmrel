@@ -1,3 +1,7 @@
+## v1.0.5 / 2015-03-06
+
+ * ([054e6ee](https://github.com/tanem/npmrel/commit/054e6eed450904d76dd17c99e5f04a10927de0ad)) Log command output
+
 ## v1.0.4 / 2015-03-04
 
  * ([47bbbc9](https://github.com/tanem/npmrel/commit/47bbbc9259d08810b6f741e8336dee5cdf9cfddb)) Use Node 0.12 execSync
