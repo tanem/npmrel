@@ -1,3 +1,7 @@
+## 1.0.7 / 2015-11-10
+
+ * ([c52c5d6](https://github.com/tanem/npmrel/commit/c52c5d66ddb5fdf3c61329bc8c58c4248de883c1)) Update badge styles
+
 ## v1.0.6 / 2015-03-06
 
  * ([fc9d8ae](https://github.com/tanem/npmrel/commit/fc9d8ae4e635715c43d39a9e8df83a66480fde16)) Clean up the command output
