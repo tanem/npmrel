@@ -1,6 +1,7 @@
 # npmrel
 
-[![NPM version](https://badge.fury.io/js/npmrel.svg)](http://badge.fury.io/js/npmrel)
+[![npm version](https://img.shields.io/npm/v/npmrel.svg?style=flat-square)](https://www.npmjs.com/package/npmrel)
+[![npm downloads](https://img.shields.io/npm/dm/npmrel.svg?style=flat-square)](https://www.npmjs.com/package/npmrel)
 
 Release [NPM](https://www.npmjs.org/) modules from the command-line.
 
