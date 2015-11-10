@@ -1,3 +1,7 @@
+## 1.0.8 / 2015-11-11
+
+ * ([07ba2c8](https://github.com/tanem/npmrel/commit/07ba2c86a659b3f19930ba8b2cb1c4f31bc1e213)) Add license information to README.md
+
 ## 1.0.7 / 2015-11-10
 
  * ([c52c5d6](https://github.com/tanem/npmrel/commit/c52c5d66ddb5fdf3c61329bc8c58c4248de883c1)) Update badge styles
