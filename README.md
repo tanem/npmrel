@@ -60,3 +60,7 @@ $ npmrel v2.1.0 -m "Releasing version %s"
 $ git log -1 --format="%s"
 Releasing version 2.1.0
 ```
+
+## License
+
+MIT
