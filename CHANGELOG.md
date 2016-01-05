@@ -1,3 +1,7 @@
+## 1.0.9 / 2016-01-06
+
+ * ([617d347](https://github.com/tanem/npmrel/commit/617d3474e88b3172cb12e728590fb92084bb4d55)) Update license (closes [#4](https://github.com/tanem/npmrel/issues/4))
+
 ## 1.0.8 / 2015-11-11
 
  * ([07ba2c8](https://github.com/tanem/npmrel/commit/07ba2c86a659b3f19930ba8b2cb1c4f31bc1e213)) Add license information to README.md
