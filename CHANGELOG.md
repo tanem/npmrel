@@ -1,3 +1,7 @@
+## v1.0.11 / 2016-02-05
+
+ * ([0e393f1](https://github.com/tanem/npmrel/commit/0e393f1ae1c26e37c243e9238ffdcc7721d3fa31)) Regen CHANGELOG
+
 ## v1.0.10 / 2016-02-05
 
  * ([290162c](https://github.com/tanem/npmrel/commit/290162c4b8cebe62e31c1224bf11800f93c59000)) Update semver
