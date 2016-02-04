@@ -1,12 +1,18 @@
-## 1.0.9 / 2016-01-06
+## v1.0.10 / 2016-02-05
+
+ * ([290162c](https://github.com/tanem/npmrel/commit/290162c4b8cebe62e31c1224bf11800f93c59000)) Update semver
+ * ([784f642](https://github.com/tanem/npmrel/commit/784f6426f752e89387fb7f508eef9b6eab867482)) Update badges
+ * ([07ce019](https://github.com/tanem/npmrel/commit/07ce0190c3b6e48d7396c755a2758b117e38f9ac)) Update license (closes [#5](https://github.com/tanem/npmrel/issues/5))
+
+## v1.0.9 / 2016-01-06
 
  * ([617d347](https://github.com/tanem/npmrel/commit/617d3474e88b3172cb12e728590fb92084bb4d55)) Update license (closes [#4](https://github.com/tanem/npmrel/issues/4))
 
-## 1.0.8 / 2015-11-11
+## v1.0.8 / 2015-11-11
 
  * ([07ba2c8](https://github.com/tanem/npmrel/commit/07ba2c86a659b3f19930ba8b2cb1c4f31bc1e213)) Add license information to README.md
 
-## 1.0.7 / 2015-11-10
+## v1.0.7 / 2015-11-10
 
  * ([c52c5d6](https://github.com/tanem/npmrel/commit/c52c5d66ddb5fdf3c61329bc8c58c4248de883c1)) Update badge styles
 
@@ -40,4 +46,3 @@
 ## v1.0.0 / 2014-10-05
 
  * ([c727b7f](https://github.com/tanem/npmrel/commit/c727b7fca6efe048356b277e6c8b1f88b682c131)) Initialised
- 
