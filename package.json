@@ -24,6 +24,6 @@
   "preferGlobal": true,
   "dependencies": {
     "commander": "^2.3.0",
-    "semver": "^4.0.0"
+    "semver": "^5.1.0"
   }
 }

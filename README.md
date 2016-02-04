@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/npmrel.svg?style=flat-square)](https://www.npmjs.com/package/npmrel)
 [![npm downloads](https://img.shields.io/npm/dm/npmrel.svg?style=flat-square)](https://www.npmjs.com/package/npmrel)
+[![dependency status](https://david-dm.org/tanem/npmrel.svg?style=flat-square)](https://david-dm.org/tanem/npmrel)
 
 Release [NPM](https://www.npmjs.org/) modules from the command-line.
 
