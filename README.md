@@ -62,7 +62,7 @@ __Arguments__
 __Examples__
 
 ```js
-import npmrel from 'npmrel';
+const npmrel = require('npmrel');
 
 // These are api versions of the cli examples above.
 npmrel('major', 'This is release v%s');
