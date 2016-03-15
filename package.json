@@ -1,6 +1,6 @@
 {
   "name": "npmrel",
-  "version": "1.0.11",
+  "version": "2.0.0",
   "description": "Release NPM modules.",
   "main": "lib/npmrel.js",
   "bin": {
