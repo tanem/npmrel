@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/npmrel.svg?style=flat-square)](https://www.npmjs.com/package/npmrel)
 [![dependency status](https://david-dm.org/tanem/npmrel.svg?style=flat-square)](https://david-dm.org/tanem/npmrel)
 
-Release [NPM](https://www.npmjs.org/) modules from the command-line.
+Release [NPM](https://www.npmjs.org/) modules.
 
 ```
 Usage: npmrel [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease] [options]
@@ -17,17 +17,13 @@ Options:
                        If unspecified, will default to "Release vx.x.x".
 ```
 
-## Installation
+## installation
 
 ```
 $ npm install -g npmrel
 ```
 
-## Why?
-
-I usually like to add/update a changelog with my release commits using [mkclog](https://www.npmjs.org/package/mkclog). Since [npm-version](https://www.npmjs.org/doc/cli/npm-version.html) needs a clean repo in order to run properly, I couldn't use that. 
-
-## How?
+## implementation
 
  * Bumps the `package.json` version
  * Commits all changes with a custom or default message ("Release vx.x.x")
@@ -36,32 +32,44 @@ I usually like to add/update a changelog with my release commits using [mkclog](
  * Pushes the tag
  * Publishes to NPM
 
-## Examples
+## usage
 
-From within a Git repo at version `1.0.0`, we can release a major version bump as follows:
+### cli
 
 ```
+$ cat package.json | grep version
+"version": "1.0.0",
 $ npmrel major -m "This is release v%s"
 $ git log -1 --format="%s"
 This is release v2.0.0
-```
-
-Now let's say we'd like to bump the patch version using the default commit message:
-
-```
 $ npmrel patch
 $ git log -1 --format="%s"
 Release v2.0.1
-```
-
-We can also specify the version directly:
-
-```
 $ npmrel v2.1.0 -m "Releasing version %s"
 $ git log -1 --format="%s"
 Releasing version 2.1.0
 ```
 
-## License
+### api
+
+#### npmrel(newVersion, [commitMessage])
+
+__Arguments__
+
+* `newVersion` - The new version or release type to move to.
+* `commitMessage` - *Optional* The git commit message to use. If omitted, defaults to `Release v%s` where `%s` is the incremented version.
+
+__Examples__
+
+```js
+import npmrel from 'npmrel';
+
+// These are api versions of the cli examples above.
+npmrel('major', 'This is release v%s');
+npmrel('patch');
+npmrel('v2.1.0', 'Releasing version %s');
+```
+
+## license
 
 MIT
